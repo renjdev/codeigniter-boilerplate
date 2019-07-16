@@ -1,0 +1,94 @@
+//Variables
+$primary-color: #7376df;
+$primary-color-hover: #6365d2;
+$almost-white: #f7f7f7;
+$light-gray: #bdc3c7;
+$lighter-gray: #dfdfdf;
+$dark-gray: #7F8C8D;
+$medium-gray: #7c7c7c;
+$base-font-size: 16px;
+
+
+$black: #262A2D;
+$dark-blue: #34495E;
+$blue: #2980B9; 
+$orange: #F39C12;
+$red: #E74C3C;
+$purple: #8E44AD;
+$gray: #95a5a6;
+$yellow: #F1C40F;
+
+
+
+.back-white {
+    background-color: $almost-white;    
+}
+
+.back-blue {
+    background-color: $blue;
+}
+
+.back-dark-blue {
+    background-color: $dark-blue;
+}
+
+.back-orange {
+    background-color: $orange;
+}
+
+.back-red {
+    background-color: $red;
+}
+
+.back-purple {
+    background-color: $purple;
+}
+
+.back-gray {
+    background-color: $gray;
+}
+
+.back-light-gray{
+    background-color: $light-gray;
+}
+
+.back-yellow {
+    background-color: $yellow;
+}
+
+.white {
+    color: $almost-white;
+}
+
+.blue {
+    color: $blue;
+}
+
+
+.dark-blue {
+    color: $dark-blue;
+}
+
+.orange {
+    color: $orange;
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: $purple;
+}
+
+.gray {
+    color: $gray;
+}
+
+.light-gray{
+    color: $light-gray;
+}
+
+.yellow {
+    color: $yellow;
+}
