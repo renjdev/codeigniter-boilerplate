@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "codeigniter/framework": "3.1.5",
+        "codeigniter/framework": "3.1.9",
         "components/jquery": "3.2.1",
         "components/jqueryui": "1.12.1",
         "fortawesome/font-awesome": "4.7.*",

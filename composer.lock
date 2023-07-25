@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e361a9a4d31db5a7656adccd28bc459",
+    "content-hash": "941c6f81df16ce3b4915654b25cbe382",
     "packages": [
         {
             "name": "codeigniter/framework",
-            "version": "3.1.5",
+            "version": "3.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcit-ci/CodeIgniter.git",
-                "reference": "6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3"
+                "reference": "30e2eafa86c4c7b6b39cea3e7089a90df9f603fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3",
-                "reference": "6c7a4266410070d30f8f6bcdf9c9e67f3d6478e3",
+                "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/30e2eafa86c4c7b6b39cea3e7089a90df9f603fb",
+                "reference": "30e2eafa86c4c7b6b39cea3e7089a90df9f603fb",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,14 @@
             ],
             "description": "The CodeIgniter framework",
             "homepage": "https://codeigniter.com",
-            "time": "2017-06-19T08:33:58+00:00"
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "issues": "https://github.com/bcit-ci/CodeIgniter/issues",
+                "slack": "https://codeigniterchat.slack.com",
+                "source": "https://github.com/bcit-ci/CodeIgniter",
+                "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki"
+            },
+            "time": "2018-06-12T13:45:46+00:00"
         },
         {
             "name": "components/jquery",
@@ -165,68 +172,6 @@
             ],
             "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.",
             "time": "2016-09-16T05:47:55+00:00"
-        },
-        {
-            "name": "components/modernizr",
-            "version": "3.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/modernizr.git",
-                "reference": "f4fc5301da393558235c8c927937ed21a5a7c344"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/modernizr/zipball/f4fc5301da393558235c8c927937ed21a5a7c344",
-                "reference": "f4fc5301da393558235c8c927937ed21a5a7c344",
-                "shasum": ""
-            },
-            "type": "component",
-            "extra": {
-                "component": {
-                    "scripts": [
-                        "modernizr.js"
-                    ],
-                    "shim": {
-                        "exports": "window.Modernizr"
-                    }
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Faruk Ates"
-                },
-                {
-                    "name": "Paul Irish"
-                },
-                {
-                    "name": "Alex Sexton"
-                },
-                {
-                    "name": "Ryan Seddon"
-                },
-                {
-                    "name": "Stu Cox"
-                },
-                {
-                    "name": "Patrick Kettner"
-                },
-                {
-                    "name": "Richard Herrera"
-                }
-            ],
-            "description": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.",
-            "homepage": "https://modernizr.com",
-            "keywords": [
-                "CSS3",
-                "HTML5",
-                "browser",
-                "feature detection"
-            ],
-            "time": "2017-07-06T07:27:29+00:00"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -434,5 +379,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
